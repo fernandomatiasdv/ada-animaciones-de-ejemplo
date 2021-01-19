@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        body{
+            height: 100vh;
+            display: grid;
+            place-content: center;
+        }
+        .caja{
+            color: #EEEEEE;
+            width: 200px;
+            height: 160px;
+            border-radius: 10px;
+            background-color: #1C6EA4;
+            transition: 2s cubic-bezier(.45,.01,.9,1.59);
+                        /*
+                            ease: 
+                        */
+        }
+        .caja:hover{
+            /*Transformaciones*/
+            transform: scale(1.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="caja">
+
+    </div>
+</body>
+</html>
